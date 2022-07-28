@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="BuddyStock.app" target="11" />
+      <module name="BuddyStock_re.buildSrc" target="11" />
+      <module name="BuddyStock_re.buildSrc.main" target="11" />
+      <module name="BuddyStock_re.buildSrc.test" target="11" />
+      <module name="W.app" target="11" />
+      <module name="Weather.app" target="11" />
+      <module name="weather.buildSrc" target="11" />
+      <module name="weather.buildSrc.main" target="11" />
+      <module name="weather.buildSrc.test" target="11" />
+      <module name="Weather.data" target="11" />
+      <module name="Weather.domain" target="11" />
+      <module name="Weather.dynamicfeature" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.jieun.weather.main.MainWeatherItem.City" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/v_top_line"
+            android:layout_width="match_parent"
+            android:layout_height="01dp"
+            android:background="@color/black"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@{item.city}"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/v_bottom_line"
+            app:layout_constraintTop_toBottomOf="@id/v_top_line"
+            tools:text="Seoul" />
+
+        <View
+            android:id="@+id/v_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="01dp"
+            android:background="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
